@@ -1,7 +1,7 @@
 ---
 title: Coverless ebooks
 description:
-date: 2018-07-04
+date: 2020-06-18
 tags:
   - publishing
   - books
