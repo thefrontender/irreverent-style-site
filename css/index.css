@@ -1,6 +1,6 @@
 /* Colors */
 :root {
-  --lightgray: #e0e0e0;
+  --lightgray: #f0f0f0;
   --gray: #C0C0C0;
   --darkgray: #333;
   --navy: #17050F;
@@ -16,8 +16,10 @@
 html,
 body {
   padding: 0;
-  margin: 0;
-  font-family: -apple-system, system-ui, sans-serif;
+  margin: 0 auto;
+  max-width: 40em;
+  font-family: "Iowan Old Style", "Apple Garamond", "Sitka Text", Baskerville, "Times New Roman", "Droid Serif", Times, "Source Serif Pro", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-variant-numeric: oldstyle-nums;
   color: var(--darkgray);
   background-color: var(--white);
 }
@@ -59,6 +61,10 @@ table {
 table td,
 table th {
   padding-right: 1em;
+}
+abbr {
+  text-transform: uppercase;
+  font-variant-caps: all-small-caps;
 }
 
 pre,
@@ -198,6 +204,7 @@ code {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+  font-variant-caps: all-small-caps;
   font-size: 0.6875em; /* 11px /16 */
   padding: 0.09090909090909em 0.3636363636364em; /* 1px 4px /11 */
   margin-left: 0.8em; /* 8px /10 */
@@ -244,4 +251,20 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+/* Block quotes and attribution */
+.c-blockquote {
+  background-color: var(--lightgray);
+  margin: 1em 0;
+  padding: 1em;
+}
+.c-blockquote blockquote {
+  font-size: 1.2em;
+  font-style: italic;
+  margin: 0;
+}
+.c-blockquote__attribution {
+  margin: .5em 0;
+  text-align: right;
 }

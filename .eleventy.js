@@ -6,6 +6,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttribution = require("markdown-it-attribution");
+const markdownItAbbr = require('markdown-it-abbr');
 
 module.exports = function(eleventyConfig) {
   // Add plugins
@@ -73,7 +74,7 @@ module.exports = function(eleventyConfig) {
     permalinkSymbol: "#"
   }).use(markdownItAttribution, {
     removeMarker: false,
-  });
+  }).use(markdownItAbbr);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)
