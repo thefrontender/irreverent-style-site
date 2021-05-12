@@ -3,9 +3,10 @@
   --lightgray: #f0f0f0;
   --gray: #C0C0C0;
   --darkgray: #333;
-  --navy: #17050F;
-  --blue: #082840;
   --white: #fff;
+  --brightred: #d80000;
+  --darkred: #580000;
+  --red: #8b0000;
 }
 
 /* Global stylesheet */
@@ -36,10 +37,14 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--brightred);
 }
 a[href]:visited {
-  color: var(--navy);
+  color: var(--red);
+}
+a[href]:hover,
+a[href]:focus {
+  color: var(--darkred);
 }
 main {
   padding: 1rem;
