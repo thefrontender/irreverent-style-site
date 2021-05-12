@@ -11,8 +11,7 @@ layout: layouts/post.njk
 Via a link in [this instalment of The Convivial Sociert](https://theconvivialsociety.substack.com/p/the-public-that-cannot-mourn-does) to [Home Screens](https://reallifemag.com/home-screens/) and thence to more of the author, Drew Austin at [Kneeling Bus](https://kneelingbus.net/).
 
 > Far more than a container or shell for content, the cover is an interface between that content and human society, the intermediate layer that positions information in the world.
-
-[Incipit as Infrastructure -- Drew Austin](https://kneelingbus.net/2018/10/30/incipit-as-infrastructure/)
+> — Drew Austin, [Incipit as Infrastructure](https://kneelingbus.net/2018/10/30/incipit-as-infrastructure/)
 
 The essay puts its thumb on a sense of disquiet I've had for some time but not been able to adequately express, most recently twinged by opening a new book on my Kindle.
 
