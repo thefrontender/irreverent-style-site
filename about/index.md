@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
 ---
 
-I'm Jachin Sheehy (Jason) and this is my [commonplace book](https://en.wikipedia.org/wiki/Commonplace_book).
+I'm <a class="h-card" rel="me" href="https://irreverent.style/">Jachin Sheehy</a> (pronounce that as 'Jason') and this is my [commonplace book](https://en.wikipedia.org/wiki/Commonplace_book).
 
 I'm a frontend web developer with interests in publishing (online and offline), typography, and the philosophy of work.
 
