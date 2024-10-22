@@ -1,3 +1,9 @@
 [build]
   publish = "_site"
   command = "DEBUG=* eleventy"
+
+[[redirects]]
+  from = "/micropub/*"  
+  to = "https://irreverent-style-micropub.netlify.app/:splat"
+  status = 200
+  force = false
