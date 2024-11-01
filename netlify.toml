@@ -3,7 +3,7 @@
   command = "DEBUG=* eleventy"
 
 [[redirects]]
-  from = "/micropub/*"  
-  to = "https://irreverent-style-micropub.netlify.app/:splat"
+  from = "/micropub"  
+  to = "https://irreverent-style-micropub.netlify.app/.netlify/functions/micropub"
   status = 200
-  force = false
+  force = true
